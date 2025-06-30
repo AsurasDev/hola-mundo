@@ -1,9 +1,10 @@
-
-from hola import hola_mundo
+from saludos import saludar_espanol, saludar_ingles, saludar_frances
 
 if __name__ == "__main__":
-
     name = "mundo"
-
-    hola_mundo(name)
+    
+    # Saludar en tres idiomas
+    saludar_espanol(name)
+    saludar_ingles(name)
+    saludar_frances(name)
 
